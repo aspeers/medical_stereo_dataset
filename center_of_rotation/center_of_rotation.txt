@@ -1,0 +1,216 @@
+The center of rotation (COR) estimates are in 3D camera space and can be used to successfully decouple the translation and rotation components of your motion estimates for direct comparison to the 1 mm / 1 degree ground truth values.  This is only needed in the rotation-only and translation+rotation datasets (as no rotation occurs in the translation-only case).  For the translation+rotation case the full set of points are necessary to bring each individual frame into alignment with the COR before estimating the rotation that was recovered about the actual rotation axis.  As the COR location translates across the scene a frame-dependent translation component is provided as cor_1-cor-31.  For the rotation-only case, the COR stays stationary and is equivalent to cor_15 ( 2.94590335788383, -1.19651810502617, 21.9663734008093 ) in the full set of points (all three datasets share a common position at frame 16).
+
+point format (in 3D camera space):
+
+   x
+   y
+   z
+
+cor_1
+
+          2.49046229723799
+         -1.16601141035565
+          21.9426663910955
+
+
+cor_2
+
+          2.52299380156984
+         -1.16819045997497
+          21.9443597489322
+
+
+cor_3
+
+          2.55552530590168
+         -1.17036950959429
+          21.9460531067689
+
+
+cor_4
+
+          2.58805681023353
+         -1.17254855921362
+          21.9477464646056
+
+
+cor_5
+
+          2.62058831456537
+         -1.17472760883294
+          21.9494398224423
+
+
+cor_6
+
+          2.65311981889722
+         -1.17690665845226
+           21.951133180279
+
+
+cor_7
+
+          2.68565132322907
+         -1.17908570807158
+          21.9528265381157
+
+
+cor_8
+
+          2.71818282756091
+         -1.18126475769091
+          21.9545198959524
+
+
+cor_9
+
+          2.75071433189276
+         -1.18344380731023
+          21.9562132537891
+
+
+cor_10
+
+           2.7832458362246
+         -1.18562285692955
+          21.9579066116258
+
+
+cor_11
+
+          2.81577734055645
+         -1.18780190654888
+          21.9595999694625
+
+
+cor_12
+
+          2.84830884488829
+          -1.1899809561682
+          21.9612933272992
+
+
+cor_13
+
+          2.88084034922014
+         -1.19216000578752
+          21.9629866851359
+
+
+cor_14
+
+          2.91337185355198
+         -1.19433905540684
+          21.9646800429726
+
+
+cor_15
+
+          2.94590335788383
+         -1.19651810502617
+          21.9663734008093
+
+
+cor_16
+
+          2.97843486221568
+         -1.19869715464549
+           21.968066758646
+
+
+cor_17
+
+          3.01096636654752
+         -1.20087620426481
+          21.9697601164827
+
+
+cor_18
+
+          3.04349787087937
+         -1.20305525388413
+          21.9714534743194
+
+
+cor_19
+
+          3.07602937521121
+         -1.20523430350346
+          21.9731468321562
+
+
+cor_20
+
+          3.10856087954306
+         -1.20741335312278
+          21.9748401899929
+
+
+cor_21
+
+           3.1410923838749
+          -1.2095924027421
+          21.9765335478296
+
+
+cor_22
+
+          3.17362388820675
+         -1.21177145236142
+          21.9782269056663
+
+
+cor_23
+
+           3.2061553925386
+         -1.21395050198075
+           21.979920263503
+
+
+cor_24
+
+          3.23868689687044
+         -1.21612955160007
+          21.9816136213397
+
+
+cor_25
+
+          3.27121840120229
+         -1.21830860121939
+          21.9833069791764
+
+
+cor_26
+
+          3.30374990553413
+         -1.22048765083872
+          21.9850003370131
+
+
+cor_27
+
+          3.33628140986598
+         -1.22266670045804
+          21.9866936948498
+
+
+cor_28
+
+          3.36881291419782
+         -1.22484575007736
+          21.9883870526865
+
+
+cor_29
+
+          3.40134441852967
+         -1.22702479969668
+          21.9900804105232
+
+
+cor_30
+
+          3.43387592286151
+         -1.22920384931601
+          21.9917737683599
